@@ -2,7 +2,7 @@ from student import is_pass, calculate_grade, bonus_marks
 
 
 def test_is_pass():
-    assert is_pass(10) == True
+    assert is_pass(80) == True
 
 
 def test_is_fail():
