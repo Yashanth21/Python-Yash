@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "employee_package"
+version = "1.0.0"
+description = "A simple employee management package"
+authors = [
+    { name = "Yash" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests"
+]
+[tool.setuptools]
+packages = ["employee"]
