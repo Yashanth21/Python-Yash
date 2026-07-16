@@ -148,3 +148,8 @@ print(language.replace("Python", "Java"))
 print(language.split())
 print(len(language))
 
+print(language.upper())
+print(language.lower())
+print(language.replace("Python", "Java"))
+print(language.split())
+print(len(language))
